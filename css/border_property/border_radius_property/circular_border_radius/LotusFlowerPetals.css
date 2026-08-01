@@ -1,0 +1,36 @@
+#lotus_container{
+    width: 400px;
+    height: 400px;
+    
+    
+}
+
+#Petals_one{
+height: 50%;
+width: 50%;
+background-image: linear-gradient(pink,purple);
+float: left;
+border-radius: 0% 100% 0% 100%;
+}
+#Petals_two{
+height: 50%;
+width: 50%;
+background-image: linear-gradient(pink,purple);
+float: left;
+border-radius: 100% 0% 100% 0%;
+}
+#Petals_three{
+height: 50%;
+width: 50%;
+background-image: linear-gradient(purple,pink);
+float: left;
+border-radius: 100% 0% 100% 0%;
+
+}
+#Petals_four{
+height: 50%;
+width: 50%;
+background-image: linear-gradient(purple,pink);
+float: left;
+border-radius: 0% 100% 0% 100%;
+}

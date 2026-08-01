@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RegistrationForm</title>
+</head>
+<body style="font-size: 20px;font-family: sans-serif;">
+    <!-- registration Form -->
+    <fieldset style="width: fit-content;border: 3px solid black;">
+    <legend>RegistrationForm</legend>
+    <form action="">
+        <!-- html table inside form -->
+         <table>
+            <!-- html form table body  -->
+            <tbody>
+                <!-- html form table body rows -->
+                <!-- first row -->
+                <tr>
+                    <td><input type="text" name="firstName" id="first_name_inputfield" placeholder="FirstName" required autofocus style="font-size: 20px;outline: none;border: none;border-radius: 5px;background-color: lightgrey;"></td>
+                </tr>
+                <!-- Second row -->
+                <tr>
+                    <td><input type="text" name="MiddleName" id="first_name_inputfield" placeholder="MiddleName" required autofocus style="font-size: 20px;outline: none;border: none;border-radius: 5px;background-color: lightgrey;"></td>
+                </tr>
+                <!-- Third row -->
+                <tr>
+                    <td><input type="text" name="LastName" id="first_name_inputfield" placeholder="LastName" required autofocus style="font-size: 20px;outline: none;border: none;border-radius: 5px;background-color: lightgrey;"></td>
+                </tr>
+                <!-- Fourth row -->
+                <tr>
+                    <td><input type="text" name="firstName" id="first_name_inputfield" placeholder="FirstName" required autofocus style="font-size: 20px;outline: none;border: none;border-radius: 5px;background-color: lightgrey;"></td>
+                </tr>
+                <!-- Fifth row -->
+                 <tr>
+                    <td>
+                        <input type="text" name="panCardNumber" id="pan_card_number_inputfield" placeholder="PancardNumber" value="F5YU123EDY" required readonly style="font-size: 20px;outline: none; border:none;border-radius: 5px;background-color: lightgray ;">
+                    </td>
+                 </tr>
+                 <!--Sixth row -->
+                 <tr>
+                    <td>
+                        <input type="text" name="otp" id="otp_input_field" minlength="1" maxlength="1" required style="font-size: 20px;text-align: center;outline: none;border:none;border-radius: 5px;background-color: lightgray;width:20px;"/>
+                        <input type="text" name="otp" id="otp_input_field" minlength="1" maxlength="1" required style="font-size: 20px;text-align: center;outline: none;border:none;border-radius: 5px;background-color: lightgray;width:20px;"/>
+                        <input type="text" name="otp" id="otp_input_field" minlength="1" maxlength="1" required style="font-size: 20px;text-align: center;outline: none;border:none;border-radius: 5px;background-color: lightgray;width:20px;"/>
+                        <input type="text" name="otp" id="otp_input_field" minlength="1" maxlength="1" required style="font-size: 20px;text-align: center;outline: none;border:none;border-radius: 5px;background-color: lightgray;width:20px;"/>
+                    </td>
+                 </tr>
+                 <!-- Seventh row -->
+                <tr>
+                    <td> 
+                        <input type="button" value="ValidateOtp" disabled style="font-size: 20px;outline: none;border: none;border-radius: 5px;background-color: lightgrey;"   name="time" id="time_inputfield" min="06:00" max="18:00" required style="font-size: 20px;outline: none;border:none;border-radius: 5px;background-color: lightgray;">
+                    </td>
+                </tr>
+                <!-- Eigth row  -->
+                <tr>
+                    <td>
+                        <input type="time" name="time" id="time_inputfield" min="06:00" max="18:00" required style="font-size: 20px;outline: none;border:none;border-radius: 5px;background-color: lightgray;">
+                    </td>
+                </tr>
+               <!-- Nineth row -->
+                <tr>
+                    <td>
+                        <input type="date" name="date" id="date_inputfield" min="2026-07-12" max="2026-07-18" style="font-size: 20px;outline: none;border: none;border-radius: 5px;background-color:lightgray;">
+                    </td>
+                </tr>
+                <!-- tenth row -->
+                <tr>
+                    <td><input type="number" name="eligibilityAge" id="eligibility_age_inputfield" required min="21" max="32" style="font-size: 20px;outline: none;border: none;border-radius: 5px;background-color: lightgray;width: 240px;"></td>
+                </tr>
+                <!-- eleventh row -->
+                <tr>
+                    <td>
+                        <textarea name="residentialAddrss" id="residential_address_textarea_inputfield" required placeholder="ResidentialAddress" style="font-size: 20px;font-family: sans-serif;resize: none;outline: none;border: none;border-radius: 5px;background-color: lightgray;width: 240px;height: 100px;"></textarea>
+                    </td>
+                    <!-- twelveth row -->
+                     <tr>
+                        <td>
+                            <select name="city" id="city_drop_down_list" required style="font-size: 25px;border: none;outline: none;border-radius: 5px;background-color: lightgrey;">
+                                <option>--SELECT CITY--</option>
+                                <optgroup label="MAHARASTRA">
+                                    <option>Pune</option>
+                                    <option>Mumbai</option>
+                                    <option>Nashik</option>
+                                </optgroup>
+                                <optgroup label="KARNATAKA">
+                                    <option>Benagluru</option>
+                                    <option>Mangaluru</option>
+                                    <option>Mandya</option>
+                                </optgroup>
+                                <optgroup label="ANDHRAPRADESH">
+                                    <option>Hyderabad</option>
+                                    <option>Tirupati</option>
+                                    <option>Vijaywada</option>
+                                </optgroup>
+                            </select>
+                        </td>
+                     </tr>
+                    <!-- thirtheenth row -->
+                     <tr>
+                        <td>
+                            <input type="text" name="course" id="course_inputfield" list="course_datalist" placeholder="Course" style="font-size: 25px;border: none;outline: none;border-radius: 5px;background-color: lightgrey;">
+                            <datalist id="course_datalist">
+                            <option value="">HTML</option>
+                            <option value="">CSS</option>
+                            <option value="">Javascript</option>
+                            <option value="">ReactJavaScript</option>
+                            <option value="">CoreJava</option>
+                            <option value="">CorePython</option>
+                            <option value="">AdvancedJava</option>
+                            <option value="">AdvancedPython</option>
+                            <option value="">SQL</option>
+                            <option value="">DataScience</option>
+                            <option value="">DataAnalytics</option>
+                            <option value="">AIML</option>
+                            </datalist>
+                        </td>
+                     </tr>
+                    <!-- last row -->
+                    <tr>
+                       
+                            <td><input type="submit" value="Register" style="font-size: 25px;outline: none;border: none;border-radius: 5px;background-color: lightgrey;"></td>
+                           <td><input type="reset" value="Cancel" style="font-size: 25px;outline: none;border: none;border-radius: 5px;background-color: lightgrey;"></td>
+                    </tr>
+            </tbody>
+         </table>
+    </form>
+
+    </fieldset>
+    
+</body>
+</html>

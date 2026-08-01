@@ -1,0 +1,115 @@
+/* 2.combinator selectors */
+/* 2.1 child selector() */
+/* 2.2.descendent selector() */
+/* 2.3.adjacent sibling selector(+) */
+/* 2.4.general sibling selector(~) */
+
+
+#orange_color_block{
+    width: 200px;
+    height: 200px;
+    background-color: Orange;
+    cursor: pointer;
+} 
+
+#gray_color_block{
+    width: 50%;
+    height: 50%;
+    background-color: gray;
+}
+
+/* 2.1 child selector() */
+ #orange_color_block > hover #gray_color_block{
+    background-color: black;
+} 
+
+#orange_color_block:hover #gray_color_block{
+
+    background-color: black;
+}
+
+#grand_father_block{
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+    cursor: pointer;
+}
+
+.half_dimension_blocks{
+    width: 50%;
+    height: 50%;
+    color: greenyellow;
+}
+
+#father_block{
+    background-color: greenyellow;
+    width: 50%;
+    height: 50%;
+}
+
+#child_block{
+    background-color: gray;
+    width: 50%;
+    height: 50%;
+}
+
+#grand_child_block{
+    background-color: greenyellow;
+     width: 50%;
+    height: 50%;
+}
+
+/* 2.2 descendant selector() */
+/* #grand_father_block:hover #child_block{
+    background-color: black;
+} */
+
+#father_block:hover #grand_child_block{
+    background-color: black;
+}
+
+#grand_father_block:hover #father_block{
+    background-color: darkblue;
+}
+
+.color_blocks{
+    width: 100px;
+    height: 100px;
+    float: left;
+    cursor: pointer;
+}
+
+#green_color_block{
+    background-color: green;
+}
+
+#white_color_block{
+    background-color: white;
+}
+
+#red_color_block{
+    background-color: red;
+}
+
+#navy_color_block{
+    background-color: navy;
+}
+
+#lightgray_color_block{
+    background-color: lightgray;
+}
+
+/* 2.3 adjacent sibling selector(+) */
+/* 2.4 general sibling selector(~) */
+
+#green_color_block:hover+#white_color_block{
+    border: 3px solid black;
+}
+
+#green_color_block:hover~#navy_color_block{
+    background-color: lightgray;
+}
+
+#green_color_block:hover~#lightgray_color_block{
+    background-color: navy;
+}

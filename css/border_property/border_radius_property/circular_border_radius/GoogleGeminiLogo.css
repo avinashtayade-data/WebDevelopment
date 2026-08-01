@@ -1,0 +1,49 @@
+@font-face {
+    font-family: google-sans;
+    src: url(../../../../assets/fonts/Google_sans_Flex.ttf);
+}
+
+
+#main{
+height: 400px;
+width: 400px;
+background-image: linear-gradient(to left,pink,skyblue);
+}
+#div1{
+    height: 50%;
+    width: 50%;
+    background-color: white;
+    float: left;
+    border-bottom-right-radius: 100%;
+   
+}
+#div2{
+    height: 50%;
+    width: 50%;
+    background-color: white;
+    float: left;
+    border-bottom-left-radius: 100%;
+}
+#div3{
+    height: 50%;
+    width: 50%;
+    background-color: white;
+    float: left;
+    border-top-right-radius: 100%;
+}
+#div4{
+    height: 50%;
+    width: 50%;
+    background-color: white;
+    float: left;
+    border-top-left-radius: 100%;
+}
+
+#Gemini{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+    background: linear-gradient(to right,pink,skyblue);
+    background-clip: text;
+    color:transparent;
+}

@@ -1,0 +1,23 @@
+@font-face {
+    font-family: google-sans;
+    src: url(../../../../assets/fonts/Google_sans_Flex.ttf);
+}
+
+#Heading{
+    font-family: google-sans;
+}
+
+#div_1{
+    width: 100px;
+    height: 100px;
+    background-color: navy;
+    border-radius: 10% 25% 35% 40%;
+}
+
+#div_2{
+    width: 80px;
+    height: 80px;
+    border: 15px solid navy;
+    border-radius: 50%;
+}
+
