@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* box-sizing: border-box; */
+}
+#vehicle_container{
+    height: 600px;
+    width: 1366px;
+   
+}
+#content_container_cycle{
+    height: 120px;
+    width: 100%;
+    background-image: url(../../assets/images/cycle.png);
+    background-size: 80px;
+}
+
+#content_container_car{
+    height: 120px;
+    width: 100%;
+    background-image: url(../../assets/images/car.png);
+    background-size:contain;
+    transition-duration: 5s;
+}
+#content_container_Truck{
+    height: 120px;
+    width: 100%;
+    background-image: url(../../assets/images/Truck.png);
+    background-size: contain;
+
+}
+#content_container_Train{
+    height: 120px;
+    width: 100%;
+    background-image: url(../../assets/images/Train_engine.png);
+    background-size: contain;}
+#content_container_Salman_khan{
+    height: 120px;
+    width: 100%;  
+    background-image: url(../../assets/images/salmanKhanicon.png);
+    background-size: contain;
+}
+
+#Start_Block{
+    height: 30px;
+    width: 1366px;
+    background-color: black;
+}
+

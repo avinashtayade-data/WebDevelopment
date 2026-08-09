@@ -1,0 +1,24 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#container{
+    height: 150px;
+    width:150px;
+    background-color: black;
+    margin:175px;
+    border: 5px solid grey;
+    background-image: url(../../assets/images/Earth.png);
+    background-size: cover;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#container:hover{
+    background-image: url(../../assets/images/Moon.png);
+    background-size: cover;
+    transition-duration:  2s;
+    border-radius: 50%;
+}
