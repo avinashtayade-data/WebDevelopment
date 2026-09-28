@@ -1,0 +1,77 @@
+#JAVA SCRIPT
+#---------------------------Execute in 2types Environment------------------------------------------#
+    1.Browser Environment
+    2.Node Environment
+
+js is a scripting language which is used to provide dynamicity
+it supports oops and used to automate the task 
+
+
+what is scripting langauage?
+it uses mostly  intepreter
+scripting language is a sub set of a programming language 
+
+#compile time error 
+#runtime error
+
+js is only having runtime
+
+<------------Features of js------------->
+1.Dynamically type langauage
+    dont have to specific any data type(detected during runtime)
+
+2.Synchronous 
+3.ASynchronous
+4.Single Threaded
+
+#Tokens:
+a smallest unit of a programming langauage
+1.keywords
+2.identifiers
+3.literal
+4.operators
+5.separators
+6.comments
+
+
+
+Variables:
+    Here in js we have to use three special keywords to declare Variables
+
+
+
+
+#in js file
+
+1.VAR
+    DECLARATION USING VAR(it is older way to declare the variable)
+    var b;
+    b=10;
+    console.log(b);
+    var b;
+    b=20;
+    console.log(   b  );
+
+
+    in var variable the Variables are overriding
+
+2.LET 
+    DECLARATION USING LET (it is used when the value of the variable is changing or updating)
+
+    let a;
+    a=10;
+    console.log(a);
+    let b=20;
+    console.log(b);
+    b=30;
+    console.log(b);
+
+3.CONST 
+    DECLARATION USING CONST (it is used when the value of the variable is not going to change it is to be constant)
+    
+    (const a;
+    a=10;)It cannot be declared by using this it is not same as the let and var
+    
+    const b = 10000;(It need to be defined and initialized at the same time otherwise it will throw error)
+    console.log(b)
+

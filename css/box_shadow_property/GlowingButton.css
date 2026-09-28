@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Product-Sans;
+    src: url(../../assets/fonts/Product-Sans.ttf);
+}
+.container{
+    width: 400px;
+    height: 400px;
+    margin:0px auto;
+    /* background-color: bisque; */
+}
+#Button{
+    height: 150px;
+    width: 400px;
+    font-family: Product-Sans;
+    
+    /* transition: color 1000ms ease-in-out  0.5s; */
+    /* margin: 260px 0 0 0px; */
+    margin: 260px 0 0 0px;
+    outline: none;
+    font-size: 50px;
+    font-weight: bold;
+    border-radius: 20px;
+    border:none;
+    background-color: yellowgreen;
+    transition: box-shadow;  
+    transition: box-shadow 1000ms ease-in-out  10ms;
+}
+body{
+    background-color: black;
+}
+#Button:hover{
+    /* shadow on right side */
+    box-shadow: 30px 0px 200px yellowgreen,
+    /* shadow on left side */
+    -30px 0px 200px yellowgreen,
+    /* shadow on top */
+    0px 30px 200px yellowgreen,
+    /* shadow on bottom side */
+    0px -30px 200px yellowgreen;
+    /* transition:property-name(for which property it should be applied),
+    transition-delay :(time required to complete the transition ,
+    transition-timing:(type of transition you want to apply)
+        ease              |
+        ease-in           |
+        ease-out          |
+        ease-in-out
+     */
+    cursor: pointer;
+
+}

@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+@font-face {
+    font-family: Product-Sans;
+    src: url(../../assets/fonts/Product-Sans.ttf);
+}
+.nav_bar{
+    height: 80px;
+    width: 100%;
+    background-color: lightgray;
+    font-size: 60px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    position: sticky;
+    top:0;
+    /* z-index: 1000; */
+}
+.images{
+height: 645px;
+width: 100%;
+background-size: cover; 
+background-position: center; 
+}
+#arrow_container{
+    height: 50px;
+    width: 50px;
+    /* background-color: rgba(0,0,0 50); */
+    background-color: rgb(253, 253, 255,0.7);
+    cursor: pointer;
+    position: fixed;
+    bottom: 60px;
+    left:1450px;
+    border-radius: 50%;
+}
+
+#arrow{
+    font-size: 40px;
+}
+

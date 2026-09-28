@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: WorkSans;
+    box-sizing: border-box;
+
+}
+@font-face {
+    font-family: WorkSans;
+    src: url(../../assets/fonts/WorkSans-Regular.ttf);
+}
+#Heading_nav_bar{
+    height: 60px;
+    font-size: 50px; /*NavBar Heading*/
+    background-color: peachpuff;
+    text-align: center;
+    font-weight: bold;
+}
+#WebDevelopment_container{
+    width: 450px;
+    height: 500px;
+    background-color: rgb(220, 210, 210);
+    overflow-x: hidden;
+    /* padding-left: 40px; */
+    cursor: pointer;
+
+    /* scrollbar-width: none; */
+}
+#WebDevelopment_heading{
+    font-size: 40px;
+}
+.Subject_name{
+    font-size: 30px;
+    font-weight: bold;
+    padding-left:-2px;
+}
+.html_topics,.css_topics{
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: normal;
+}
+.html_topics:hover,.css_topics:hover{
+    background-color: rgba(55, 50, 50, 0.606);
+    scale: 1.02;
+}
+
+
+
+/* ScrollBar Modifications */
+
+
+#WebDevelopment_container::-webkit-scrollbar{
+    width: 10px;
+}
+#WebDevelopment_container::-webkit-scrollbar-track{
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: inset 2px 2px 10px gray;
+}
+#WebDevelopment_container::-webkit-scrollbar-thumb{
+    background-color: #a39797;
+    border-radius: 4px;
+    /* color: black; */
+}
+#WebDevelopment_container::-webkit-scrollbar-thumb:hover{
+    border: 1px solid rgb(115, 112, 112);
+}
+#WebDevelopment_container::-webkit-scrollbar-button{
+height: 10px;
+width: 10px;
+background-color: gray;
+border-radius: 50%;
+}

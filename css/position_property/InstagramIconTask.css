@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#Icon_container{
+    height: 600px;
+    width: 600px;
+    background-color: black;
+    border-radius: 23.30%;
+    position: relative;
+    top:70px;
+    left: 480px;
+    /* background-image: url(../../assets/images/instagram_color_gradient_background.jpeg);
+    background-size: cover; */
+    cursor: pointer;
+    transition:  all 3000ms ease-in-out ;
+}
+
+#Icon_container:hover{
+    background-image: url(../../assets/images/instagram_color_gradient_background.jpeg);
+    background-size: cover;
+    
+}
+#Icon_container:hover #inside_black_container,
+#Icon_container:hover #inside_circle_black_container{
+    background-image: url(../../assets/images/instagram_color_gradient_background.jpeg);
+    background-size: cover;
+    
+    
+}
+#outer_white_container{
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    /* border:   50px solid white; */
+    border-radius: 28.0%;
+    position: absolute;
+    top:100px ;
+    left: 95.0px;
+    
+} 
+#inside_black_container{
+    height: 300px;
+    width: 300px;
+    /* background-color:rgba(253, 244, 244, 0.5);
+    */
+    /* background-image: url(../../assets/images/instagram_color_gradient_background.jpeg);
+    background-size: cover; */
+    background-color: black;
+    border-radius: 30%;
+    position: relative;
+
+    top:50px;
+    left: 53px;
+    transition:  all 2000ms ease-in-out ;
+
+}
+
+#inside_small_white_container{
+    height:40px ;
+    width: 40px;
+    background-color: white;
+    position: absolute;
+    top:40px;
+    right: 27.5px;
+    border-radius: 50%;
+}
+#inside_circle_white_container{
+    height:200px ;
+    width: 200px;
+    background-color: white;
+    position: absolute;
+    top:47px;
+    left: 48.5px;
+    border-radius: 50%;
+}
+#inside_circle_black_container{
+    height:100px ;
+    width: 100px;
+    background-color: black;
+    /* background-image: url(../../assets/images/instagram_color_gradient_background.jpeg);
+    background-size: cover; */
+    position: absolute;
+    top:47px;
+    left: 48.5px;
+    border-radius: 50%;
+    transition:  all 2000ms ease-in-out ;
+
+
+}

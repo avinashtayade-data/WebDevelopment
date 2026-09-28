@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: ProductSans;
+}
+@font-face {
+    font-family: ProductSans;
+    src: url(../../assets/fonts/Product-Sans.ttf);
+}
+#shoe_container{
+    height: 400px;
+    width: 400px;
+    background-color: lightgray;
+    position: relative;
+    top: 100px;
+    left:397px;
+    border-radius: 30%;
+    cursor: pointer;
+}
+#Shoe_image{
+    height: 150px;
+    width: 340px;
+    position: relative;
+    transition: all 200ms ease-in-out;
+    top: 80px;
+    left: 40px;  
+}
+#shoe_container:hover{
+    box-shadow: 3px 3px 10px gray;
+    
+}
+#shoe_container:hover>#Shoe_image{
+    transform: translate(-320px,-80px) rotate(-90deg) scale(2);
+}
+.shoe_tools{
+    position: relative;
+    top: 0px;
+    left: 85px;
+    color: black;
+    opacity: 0;
+    transition: opacity 200ms ease-in-out;
+}
+#shoe_container:hover>.shoe_tools{
+    /* color: black; */
+    /* z-index: 1; */
+    opacity: 1;
+}
+
+#shoe_paragraph{
+font-size:20px;
+width: 250px;
+}
