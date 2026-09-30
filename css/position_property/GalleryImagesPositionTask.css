@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#images_container{
+height: 200px;
+width: 800px;
+background-color: burlywood;
+/* border-radius: 100px; */
+position: relative;
+bottom:-500px;
+left: 380px;
+transform: skew(-35deg);
+border-radius: 35px;
+}
+.content_Images{
+    height: 160px;
+    width: 12.5%;
+    background-size:contain;
+    border-radius: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    object-fit: cover; 
+    /* Lines them up left-to-right cleanly without flexbox */
+    display: block;
+    float: left; 
+    transform: skew(-5deg, 0deg) scale(1.5); 
+/* transform: skew(-35deg,0deg); */
+}
