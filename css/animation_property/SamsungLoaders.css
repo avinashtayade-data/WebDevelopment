@@ -1,0 +1,87 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#samsung_loaders_container{
+    height: 600px;
+    width: 600px;
+    position: relative;
+    top:67px ;
+    left: 450px;
+    cursor: pointer;
+    /* border:1px solid black; */
+    }
+    .samsung_loaders{
+    height:50%;
+    width:50% ;
+    background-color: coral;
+    float: left;
+    border-radius: 50%;
+    }
+    .navy_loader{
+        background-color: navy;
+        }
+        .grey_loader{
+            background-color: lightgray;
+            }
+            
+            #samsung_loaders_container:hover{
+                animation: AnimateSamsungLoader 2000ms linear  infinite  alternate forwards;
+                }
+                
+                
+                
+                @keyframes AnimateSamsungLoader {
+        0%{
+            transform: rotate(0deg) scale(0);
+
+        }
+        100%{
+            transform: rotate(360deg) scale(1);
+            
+            }
+            }
+            */
+            
+            
+            *{
+    margin: 0px;
+    padding: 0px;
+    }
+#samsung_loaders_container{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top:67px ;
+    left: 450px;
+    cursor: pointer;
+    /* border:1px solid black; */
+    /* FIXED: Removed the invalid "name duration" placeholder line that broke the CSS parser */
+    /* /* animation: name duration timing-function delay iteration-count direction fill-mode;  */
+    animation: AnimateSamsungLoader 2000ms linear infinite alternate-reverse both;
+    } 
+    .samsung_loaders{
+        height:50%;
+        width:50% ;
+        background-color: coral;
+        position: absolute;
+        float: left;
+        border-radius: 50%;
+        }
+.navy_loader{
+    background-color: navy;
+}
+.grey_loader{
+    background-color: lightgray;
+    }
+    
+    
+    @keyframes AnimateSamsungLoader {
+        0%{
+            transform: rotate(0deg) scale(0.3);
+            }
+            100%{
+                transform: rotate(360deg) scale(1);
+    }
+    }
