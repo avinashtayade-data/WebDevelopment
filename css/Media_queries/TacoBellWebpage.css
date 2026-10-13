@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: ProductSans;
+    color:white;
+}
+
+@font-face{
+    font-family: ProductSans;
+    src: url(../../assets/fonts/ProductSansRegular.ttf);
+}
+#taco_bell_header_container{
+    height: 10vh;
+    width:100vw;
+    /* background-color:transparent; */
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+}
+/* #logo_icon_container{
+
+} */
+#TacoBell_logo{
+    font-size: 35px;
+    font-weight: bold;
+    text-shadow: 0px 0px 1px black;
+
+}
+#bell_icon{
+    font-size: 40px;
+    text-shadow: 0px 0px 1px black;
+}
+
+#home_icon{
+    font-size: 30px;
+    text-shadow: 0px 0px 1px black;
+
+}
+#home_logo{
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 0px 0px 1px black;
+
+
+}
+#home_logo_icon_container{
+    position: absolute;
+    right: 10px;
+}
+body{
+    background-image: url(../../assets/images/RestaurantImage.jpg);
+    background-size: cover;
+    backdrop-filter: blur(2px);
+    /* background-color: rgba(209, 190, 190, 0.3); */
+    /* background-repeat: repeat;  */
+}
+
+#navigation_bar{
+    margin: 1px;
+    background-color:rgba(0, 0, 0, 0.5);
+    height: 6vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.navigation_contents{
+    text-decoration: none;
+    font-size: 30px;
+    text-shadow: 2px 1px 4px #000000;
+}
+
+
+@media screen and (orientation: portrait) {
+    #logo_icon_container{
+        padding-left: 60px;
+    }
+   #TacoBell_logo{
+    font-size:25px;
+     text-shadow: 0px 0px 1px black;
+
+   }
+   #bell_icon{
+    font-size: 25px;
+     text-shadow: 0px 0px 1px black;
+
+   }
+   #home_logo_icon_container{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 1px 4px #e50000;
+
+   }
+   #home_icon{
+       font-size: 20px;
+       text-shadow: 2px 1px 4px #000000;
+
+       /* position: absolute; */
+       /* right: 0px; */
+       /* right: 40px; */
+    }
+    #home_logo{
+        font-size: 10px;
+        position: absolute;
+        right: 0px;
+        display: none;
+        text-shadow: 2px 1px 4px #000000;
+
+    }
+    #navigation_bar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: fit-content;
+        padding: 20px;
+    }
+.navigation_contents{
+    font-size: 50px;
+    text-shadow: 2px 1px 4px #000000;
+        padding: 20px;
+
+}
+}
