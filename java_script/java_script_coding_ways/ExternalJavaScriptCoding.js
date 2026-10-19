@@ -1,0 +1,1 @@
+document.getElementById("topic_heading").innerHTML = "External JavaScript Coding";  
