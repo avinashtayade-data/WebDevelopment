@@ -31,3 +31,32 @@ const earthPosition=3;//declaration and initialization
 var classRoomNumber=7;
 // let employeeName="Yashwanth";
 // const earthPosition=3;
+
+// case-study-five:block-scoped variables[let const]
+{
+    var laptopBrandName="hp";//global-scoped variable
+    let laptopModelName="NoteBookPC";//block-scoped variable
+    console.log(laptopModelName);
+    const laptopRAM=8;//block-scoped variable
+    console.log(laptopRAM);
+}
+console.log(laptopBrandName);
+
+// case-study-six:function-scoped variables[var let const]
+function toCheckFunctionScopedVariables(){
+    var laptopBrandName="DELL";//function-scoped variable
+    console.log(laptopBrandName);
+    let laptopModelName="Lattitude5460";//function-scoped variable
+    console.log(laptopModelName);
+    const laptopRAM=12;//function-scoped variable
+    console.log(laptopRAM);
+}
+toCheckFunctionScopedVariables();
+
+// case-study-seven:variable-hoisting[var]
+console.log(bagBrandName);//utilization
+var bagBrandName="WildCraft";
+// console.log(bagPrice);
+let bagPrice="₹1500";
+// console.log(bagBarCodeNumber);
+const bagBarCodeNumber=10003456710;
